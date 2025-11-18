@@ -1,0 +1,14 @@
+# Artifacts from Dual Design sessions
+# Uncomment lines below if you want to exclude artifacts from git
+
+# Exclude all session directories
+# session_*/
+
+# Or exclude only specific files
+# */business_requirements.md
+# */step*_user_answers.md
+# */state.json
+
+# Keep this README
+!README.md
+!.gitignore

@@ -1,0 +1,87 @@
+{
+  "$schema": "state-schema",
+  "currentStep": 1,
+  "sessionId": "session_YYYYMMDD_HHMMSS",
+  "model1TaskId": null,
+  "model2TaskId": null,
+  "userRequest": "Описание потребности пользователя",
+  "artifactsPath": "artifacts/session_YYYYMMDD_HHMMSS/",
+  "timestamp": "2025-11-14T08:45:00.000Z",
+  "nextAction": "create_architect_task",
+  "webResearchEnabled": false,
+  "webResearchCompleted": false,
+  "mcpToolsAvailable": [],
+  "searchQueriesExecuted": [],
+  "steps": {
+    "step1": {
+      "status": "completed",
+      "timestamp": "2025-11-14T08:45:00.000Z",
+      "artifact": "step1_user_request.md"
+    },
+    "step1.5": {
+      "status": "pending",
+      "timestamp": null,
+      "artifact": "step1.5_web_research.md",
+      "optional": true,
+      "activated": false
+    },
+    "step2": {
+      "status": "pending",
+      "timestamp": null,
+      "artifact": "step2_architect_questions.md",
+      "taskId": null
+    },
+    "step3": {
+      "status": "pending",
+      "timestamp": null,
+      "artifact": "step3_pilot_questions.md",
+      "taskId": null
+    },
+    "step4": {
+      "status": "pending",
+      "timestamp": null,
+      "artifact": "step4_architect_analysis.md",
+      "taskId": null
+    },
+    "step5": {
+      "status": "pending",
+      "timestamp": null,
+      "artifact": "step5_pilot_recommendations.md",
+      "taskId": null
+    },
+    "step6": {
+      "status": "pending",
+      "timestamp": null,
+      "artifact": "step6_mvp_questions.md",
+      "taskId": null
+    },
+    "step7": {
+      "status": "pending",
+      "timestamp": null,
+      "artifact": "step7_pilot_improvements.md",
+      "taskId": null
+    },
+    "step8": {
+      "status": "pending",
+      "timestamp": null,
+      "artifact": "step8_final_questions.md",
+      "taskId": null
+    },
+    "step9": {
+      "status": "pending",
+      "timestamp": null,
+      "artifact": "step9_user_answers.md"
+    },
+    "final": {
+      "status": "pending",
+      "timestamp": null,
+      "artifact": "business_requirements.md"
+    }
+  },
+  "metadata": {
+    "createdAt": "2025-11-14T08:45:00.000Z",
+    "updatedAt": "2025-11-14T08:45:00.000Z",
+    "mode": "dual-design",
+    "version": "1.1.0"
+  }
+}
