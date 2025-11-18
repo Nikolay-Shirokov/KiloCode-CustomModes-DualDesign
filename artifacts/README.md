@@ -11,6 +11,7 @@ artifacts/
   session_20251114_084500/
     state.json                        # Состояние сессии
     step1_user_request.md             # Исходный запрос пользователя
+    step1.5_web_research.md           # Веб-исследование (опционально) ⭐ v1.1.0
     step2_architect_questions.md      # Вопросы Архитектора
     step3_pilot_questions.md          # Вопросы Второго пилота
     step4_architect_analysis.md       # Анализ Архитектора
@@ -52,7 +53,14 @@ artifacts/
   "userRequest": "Создать обработку для синхронизации номенклатуры",
   "artifactsPath": "artifacts/session_20251114_084500/",
   "timestamp": "2025-11-14T08:45:00Z",
-  "nextAction": "send_to_model2"
+  "nextAction": "send_to_model2",
+  "webResearchEnabled": true,
+  "webResearchCompleted": true,
+  "mcpToolsAvailable": ["web_search_exa"],
+  "searchQueriesExecuted": [
+    "Wildberries API документация seller",
+    "1C интеграция Wildberries best practices"
+  ]
 }
 ```
 

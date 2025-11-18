@@ -98,8 +98,6 @@ User: Нужна синхронизация с Wildberries
 
 ---
 
-# Changelog - Dual Design Mode
-
 ## [1.0.2] - 2025-11-14
 
 ### Добавлено

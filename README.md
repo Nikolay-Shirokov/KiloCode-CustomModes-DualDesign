@@ -5,7 +5,7 @@
 **Коллаборативное AI-проектирование для превращения идей в структурированные требования**
 
 [![Kilo Code](https://img.shields.io/badge/Kilo_Code-Mode-blue)](https://github.com/kilocode)
-[![Version](https://img.shields.io/badge/version-1.0.2-green)]()
+[![Version](https://img.shields.io/badge/version-1.1.0-green)]()
 [![License](https://img.shields.io/badge/license-MIT-yellow)]()
 
 [Быстрый старт](QUICK_START_DUAL_DESIGN.md) | [Полное руководство](DUAL_DESIGN_GUIDE.md) | [Спецификация](dual-design-spec.md)
