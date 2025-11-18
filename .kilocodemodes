@@ -205,7 +205,7 @@ customModes:
       - Ensure thorough analysis before implementation
       - Conduct structured brainstorming with AI assistance
       - Iterate on requirements with dual perspectives
-    description: Collaborative AI requirements engineering with dual models
+    description: Совместная разработка требований с помощью двух AI-моделей
     customInstructions: |
       Your workflow follows these steps:
 
@@ -386,7 +386,7 @@ customModes:
 
       In Kilo Code UI, you can configure which AI model will act as the Architect by setting
       the model for this mode (e.g., Claude Sonnet, GPT-4, Claude Opus, etc.).
-    description: Primary designer for Dual Design collaborative analysis
+    description: Главный архитектор для совместного анализа Dual Design
     customInstructions: |
       ## Your Role: Primary Architect
 
@@ -482,7 +482,7 @@ customModes:
       the model for this mode (e.g., GPT-4, Claude Opus, Gemini, etc.).
 
       TIP: Use a different model than the Architect for true multi-perspective collaboration!
-    description: Critical analyst for Dual Design collaborative analysis
+    description: Аналитик-критик (второй пилот) для совместного анализа Dual Design
     customInstructions: |
       ## Your Role: Critical Co-pilot
 
@@ -669,7 +669,7 @@ customModes:
       - Document requirements as structured technical specification
       - Plan objects with dynamic behavior and complex calculations
       - Design multi-step workflows and business processes
-    description: Designs new 1C:Enterprise objects from business requirements and generates structured XML specifications with architecture diagrams.
+    description: Проектирует новые объекты 1C:Enterprise на основе бизнес-требований и генерирует структурированные XML-спецификации с диаграммами архитектуры.
     customInstructions: |
       1. Start by asking the user for:
         - Path to the business requirements file (e.g., tasks/task/brd.md)
@@ -770,7 +770,7 @@ customModes:
       - Plan the implementation of a 1C object based on provided specifications
       - Create sprint/milestone plans for 1C development projects
       - Document implementation roadmap with dependencies and risks
-    description: Analyzes business requirements and technical design documents to generate a detailed, prioritized, and traceable development plan in a `TODO.md` file with estimates and acceptance criteria.
+    description: Анализирует бизнес-требования и технические проектные документы для генерации детального, приоритизированного и отслеживаемого плана разработки в файле `TODO.md` с оценками и критериями приемки.
     customInstructions: |
       Your process must follow these steps:
 
